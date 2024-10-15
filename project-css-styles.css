@@ -1,10 +1,8 @@
 header {
     background-image: url('landing-page-bg.jpeg');
     background-size: cover;
-    width: fit-content;
-    height: 30%;
-    top:0%;
-    left: 0%;
+    width: 100%;
+    margin:0px;
     z-index: -1;
     height: 738px;
     position: relative;
@@ -47,8 +45,4 @@ button {
     height: 30px;
     width:100px;
     margin-right: 200px;
-}
-
-#landing-page-intro {
-    
 }

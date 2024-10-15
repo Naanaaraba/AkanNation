@@ -1,11 +1,11 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global styles */
+
 body {
     font-family: "JetBrains Mono SemiBold", "JetBrains Mono",  "Monospace";
     display: flex;
@@ -160,7 +160,7 @@ h1 {
     background-color: #f0f0f0;
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     .page-container {
         flex-direction: column;

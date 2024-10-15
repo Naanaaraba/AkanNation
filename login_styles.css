@@ -5,7 +5,7 @@ body{
     justify-content: center;
     line-height: 1.5;
     min-height: 100vh;
-    background: #212121;
+    background-image: url("AkanNation_logo.jpg");
     color: #ffc03c;
     flex-direction: column;
     margin: 0;
@@ -20,6 +20,8 @@ body{
     transition: transform 0.2s;
     width: 500px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+
 }
 
 .main h1{

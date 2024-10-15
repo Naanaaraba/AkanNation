@@ -1,12 +1,12 @@
 body{
     display: flex;
     align-items: center;
-    font-family: "JetBrains Mono SemiBold", "JetBrains Mono";
+    font-family: "JetBrains Mono SemiBold", "JetBrains Mono", "Monospace";
     justify-content: center;
     line-height: 1.5;
     min-height: 100vh;
     background: #212121;
-    color: darkred;
+    color: #ffc03c;
     flex-direction: column;
     margin: 0;
 }
@@ -23,7 +23,7 @@ body{
 }
 
 .main h1{
-    color: darkred;
+    color: #ffc03c;
 }
 
 .main input{
@@ -38,7 +38,7 @@ body{
 label {
     display: block;
     margin-bottom: 5px;
-    color: darkred;
+    color: #ffc03c;
     width: 100%;
     font-size: 16px;
     margin-top: 10px;
@@ -46,7 +46,8 @@ label {
     font-weight: bold;
 }
 
-.submit_btn{
+.submit_btn {
+    max-width: 100%;
     background-color: #ffc03c;
     color: white;
     padding: 10px;
@@ -58,10 +59,8 @@ label {
     transition: background-color 0.2s;
     width: 100%;
     font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
 .submit_btn:hover {
     background-color: #e5ac36;
 }

@@ -80,19 +80,25 @@ main {
     margin-bottom: 20px;
 }
 
+.main-section-content h2 {
+    color:#f4c542;
+}
+
 .signup {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.signup input {
-    padding: 15px;
-    width: 60%;
-    font-size: 1rem;
+.signup button {
+    display: inline-block;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 20px;
 }
 
-.signup button {
-    font-size: 1.5rem;
-    padding: 15px 30px;
-}
+
+

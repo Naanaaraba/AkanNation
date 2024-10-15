@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "JetBrains Mono SemiBold", "JetBrains Mono",  "Monospace";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url("AkanNation logo.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.page-container {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    background-color: #0a0909;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-container {
+    flex: 3;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-container {
+    flex: 2;
+    background-image:url("AkanNation logo.jpg");
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffc03c;
+}
+
+.login-container > p {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.social-login button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.social-login button:hover {
+    background-color: #d0d0d0;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #ffc03c;
+}
+
+.input-group:nth-last-child(2) {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.input-group:nth-last-child(2) input[type="checkbox"] {
+    margin-right: 10px;
+    width: auto;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc03c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #ffc03c;
+}
+
+.signin-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.signin-container > p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.signin-container button {
+    background-color: white;
+    color: #ffc03c;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signin-container button:hover {
+    background-color: #f0f0f0;
+}
+
+
+@media (max-width: 768px) {
+    .page-container {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .login-container, .signin-container {
+        width: 100%;
+        padding: 30px;
+    }
+}

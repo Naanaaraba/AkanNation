@@ -1,31 +1,98 @@
-header {
-    background-image: url('landing-page-bg.jpeg');
-    background-size: cover;
+html, body {
     width: 100%;
-    height: 30%;
-    top:0%;
-    left: 0%;
-    z-index: -1;
-    height: 738px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#background-image {
+    background-image: url("landing-page-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     position: relative;
 }
 
-body {
-    width:100%; 
-    height:fit-content;
-    margin-top:0%;
-    margin-left:0%;
-    margin-right:0%;
+#dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-#dark-overlay {
-    margin:0;
-    height: 738px;
-    width: 100%;
-    position:absolute;
-    background-color:rgba(0, 0, 0, 0.5);
+header {
+    position: relative;
+    z-index: 1;
 }
 
 nav {
-    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section-content {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.main-section-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.main-section-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.signup input {
+    padding: 15px;
+    width: 60%;
+    font-size: 1rem;
+}
+
+.signup button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
 }

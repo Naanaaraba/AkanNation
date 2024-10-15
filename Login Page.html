@@ -2,38 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login</title>
-  <link rel="stylesheet" href="login_styles.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login to Your Account</title>
+  <link rel="stylesheet" href="login styles.css">
 </head>
 <body>
-<div class = "main">
-  <h1>LOGIN</h1>
-  <form id = "loginForm">
-
-    <input type="email"
-           id="email"
-           name = "email"
-           placeholder="Enter your Email" required
-    >
-
-    <input type="password"
-           id="password"
-           name = "password"
-           placeholder="Enter your Password" required
-    >
+<div class="page-container">
+  <div class="login-container">
+    <div class="logo">
+      <img src="AkanNation_logo.jpg" alt="AkanNation Logo">
+    </div>
+    <h1>LOGIN</h1>
 
 
-    <button type = "submit" class = "submit_btn">
-      Submit
-    </button>
-  </form>
-
-  <p>Not registered yet?
-    <a href="signUp.html">
-      Sign up
-    </a>
-  </p>
+    <form>
+      <div class="input-group">
+        <input type="email" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Password" required>
+      </div>
+      <div class="input-group">
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">Remember me</label>
+      </div>
+      <div class="button-group">
+        <button type="submit">Sign In</button>
+      </div>
+    </form>
+  </div>
+  <div class="signin-container">
+    <h2>New Here?</h2>
+    <p>Sign up,and you too can experience your Weather for TWO!</p>
+    <a href="#" class="signup-btn">Sign Up</a>
+  </div>
 </div>
 </body>
 </html>

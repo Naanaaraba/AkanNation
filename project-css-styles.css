@@ -44,6 +44,8 @@ button {
     background: none;
     border: none;
     padding: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 #login-btn {
@@ -111,4 +113,7 @@ span {
     color: #f4c542;
 }
 
+button:hover {
+    box-shadow: 0 0 10px white;
+}
 

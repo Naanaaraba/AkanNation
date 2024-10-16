@@ -173,3 +173,14 @@ h1 {
         padding: 30px;
     }
 }
+
+a {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ffc03c;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
